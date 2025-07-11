@@ -127,7 +127,7 @@ function handleContactWhatsApp(event) {
 
   // 🔁 Format message for WhatsApp
   const text = `👤 Name: ${name}%0A📧 Email: ${email}%0A📝 Message: ${message}`;
-  const phoneNumber = "9917668808"; // <-- Replace with your own number
+  const phoneNumber = "919917668808"; // <-- Replace with your own number
 
   // ✅ Build WhatsApp link
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${text}`;
